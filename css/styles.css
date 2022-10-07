@@ -47,6 +47,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 /* header-section */
 
 .header {
