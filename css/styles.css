@@ -168,13 +168,8 @@ body {
   color: var(--primary-white-color);
 }
 
-/* portfolio-section */
-
-.portfolio {
-  background: var(--primary-white-color);
-}
-
-/* portfolio filter-buttons */
+/* portfolio-section 
+portfolio filter-buttons */
 
 .filter-btn {
   font-family: 'Roboto', sans-serif;
@@ -185,7 +180,6 @@ body {
   background: var(--light-bg-color);
   border: none;
   border-radius: 4px;
-  text-align: center;
 }
 
 .filter-btn:hover,
@@ -212,7 +206,6 @@ body {
 }
 
 .project-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: var(--basic-text-color);
