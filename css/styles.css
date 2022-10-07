@@ -89,15 +89,13 @@ body {
 }
 
 .main-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background: var(--accent-color);
-  width: 216px;
-  height: 50px;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -129,8 +127,6 @@ body {
 }
 
 .teammate-card {
-  width: 270px;
-  height: 368px;
   text-align: center;
   background: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -176,7 +172,7 @@ body {
 portfolio filter-buttons */
 
 .filter-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -198,8 +194,6 @@ portfolio filter-buttons */
 /* projects-section */
 
 .project-card {
-  width: 370px;
-  height: 404px;
   border: 1px solid var(--portfolio-border-color);
 }
 
