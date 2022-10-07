@@ -82,7 +82,18 @@ body {
 .main-btn:active {
   background: var(--active-btn-color);
 }
-/* .features {
+
+/* features-section */
+
+.features .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features .description {
   font-size: 14px;
   line-height: 1.71;
-} */
+  color: var(--basic-text-color);
+}
