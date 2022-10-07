@@ -11,13 +11,12 @@
   --portfolio-border-color: rgba(238, 238, 238, 1);
 }
 
+/* basic rules */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-black-color);
 }
-
-/* basic rules */
-
 .list {
   list-style: none;
 }
@@ -31,6 +30,13 @@ body {
 .header .link:hover:not(.logo),
 .header .link:focus:not(.logo) {
   color: var(--accent-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* header */
@@ -54,17 +60,17 @@ body {
 
 /* hero section */
 
-.hero .title {
+.hero {
+  color: var(--primary-white-color);
+  background: var(--dark-bg-color);
+}
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.hero {
-  color: var(--primary-white-color);
-  background: var(--dark-bg-color);
 }
 .main-btn {
   font-weight: 700;
@@ -85,15 +91,24 @@ body {
 
 /* features-section */
 
-.features .title {
+.features {
+  background: var(--primary-white-color);
+}
+.feature-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.features .description {
+.feature-description {
   font-size: 14px;
   line-height: 1.71;
   color: var(--basic-text-color);
+}
+
+/* works-section */
+
+.works {
+  background: var(--primary-white-color);
 }
