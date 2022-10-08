@@ -202,6 +202,7 @@ portfolio filter-buttons */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   color: var(--primary-black-color);
   background-color: var(--light-bg-color);
   border-color: transparent;
@@ -228,5 +229,6 @@ portfolio filter-buttons */
 .project-subtitle {
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--basic-text-color);
 }
