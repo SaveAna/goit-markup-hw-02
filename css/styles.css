@@ -16,7 +16,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-black-color);
   background-color: var(--primary-white-color);
-  letter-spacing: 0.03em;
 }
 
 .list {
@@ -67,10 +66,6 @@ body {
 /* header-section */
 
 .header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   border-bottom: 1px solid var(--header-border-color);
 }
 
@@ -79,9 +74,21 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.navigation .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header .contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--basic-text-color);
 }
 
@@ -115,7 +122,8 @@ body {
   cursor: pointer;
 }
 
-.main-btn:active {
+.main-btn:focus,
+.main-btn:hover {
   background-color: var(--active-btn-color);
 }
 
@@ -124,12 +132,14 @@ body {
 .feature-title {
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .feature-description {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--basic-text-color);
 }
 
@@ -151,19 +161,19 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .teammate-position {
   font-size: 16px;
   line-height: 1.19;
   color: var(--basic-text-color);
+  letter-spacing: 0.03em;
 }
 
 /* footer-section */
 
 .footer {
-  font-size: 14px;
-  line-height: 1.71;
   background-color: var(--dark-bg-color);
 }
 
@@ -171,14 +181,17 @@ body {
   color: var(--primary-white-color);
 }
 
+.footer .map-point,
 .footer .contact {
+  font-size: 14px;
+  line-height: 1.71;
   font-style: normal;
-  color: var(--footer-contacts-color);
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
 
-.map-point {
-  font-style: normal;
-  color: var(--primary-white-color);
+.footer .contact {
+  color: var(--footer-contacts-color);
 }
 
 /* portfolio-section 
