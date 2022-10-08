@@ -1,14 +1,13 @@
 :root {
-  --accent-color: rgba(33, 150, 243, 1);
-  --active-btn-color: rgba(24, 140, 232, 1);
-  --basic-text-color: rgba(117, 117, 117, 1);
-  --primary-white-color: rgba(255, 255, 255, 1);
-  --primary-black-color: rgba(33, 33, 33, 1);
-  --footer-contacts-color: rgba(255, 255, 255, 0.6);
-  --dark-bg-color: rgba(47, 48, 58, 1);
-  --light-bg-color: rgba(245, 244, 250, 1);
-  --header-border-color: rgba(236, 236, 236, 1);
-  --portfolio-border-color: rgba(238, 238, 238, 1);
+  --accent-color: #2196f3;
+  --active-btn-color: #188ce8;
+  --basic-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #212121;
+  --footer-contacts-color: #ffffff99;
+  --dark-bg-color: #2f303a;
+  --light-bg-color: #f5f4fa;
+  --header-border-color: #ececec;
 }
 
 /* basic rules */
@@ -16,7 +15,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-black-color);
-  background: var(--primary-white-color);
+  background-color: var(--primary-white-color);
   letter-spacing: 0.03em;
 }
 
@@ -77,7 +76,7 @@ body {
 .hero {
   text-align: center;
   color: var(--primary-white-color);
-  background: var(--dark-bg-color);
+  background-color: var(--dark-bg-color);
 }
 
 .hero-title {
@@ -95,15 +94,15 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  background: var(--accent-color);
-  border: none;
+  background-color: var(--accent-color);
+  border-color: transparent;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
 .main-btn:active {
-  background: var(--active-btn-color);
+  background-color: var(--active-btn-color);
 }
 
 /* features-section */
@@ -123,12 +122,12 @@ body {
 /* teammates-section */
 
 .teammates {
-  background: var(--light-bg-color);
+  background-color: var(--light-bg-color);
 }
 
 .teammate-card {
   text-align: center;
-  background: var(--primary-white-color);
+  background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -151,7 +150,7 @@ body {
 .footer {
   font-size: 14px;
   line-height: 1.71;
-  background: var(--dark-bg-color);
+  background-color: var(--dark-bg-color);
 }
 
 .footer .logo {
@@ -177,25 +176,21 @@ portfolio filter-buttons */
   font-size: 16px;
   line-height: 1.62;
   color: var(--primary-black-color);
-  background: var(--light-bg-color);
-  border: none;
+  background-color: var(--light-bg-color);
+  border-color: transparent;
   border-radius: 4px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--primary-white-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
 /* projects-section */
-
-.project-card {
-  border: 1px solid var(--portfolio-border-color);
-}
 
 .project-title {
   font-size: 18px;
